@@ -14,7 +14,12 @@ class Zomato():
     def __init__(self):
         self.user_key = config["user_key"]
 
-    def get_restaurant(self, restaurant_id):
+    def get_daily_menu(self, restaurant_id):
+        """
+        Zomato daily menu endpoint.
+        :param restaurant_id: id of the restaurant
+        :return: list of dishes
+        """
         self.__is_valid_restaurant_id(restaurant_id)
 
         headers = {'Accept': 'application/json', 'user-key': config["user_key"]}
