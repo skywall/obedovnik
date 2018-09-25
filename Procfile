@@ -1,1 +1,1 @@
-worker: python3 index.py -t "xoxp-3267317937-3267405287-442201070548-2848ff686e29ec9a7af38330fa0985a7" -c "obedovnik" -cmd "poll" -i "test nieco nieco"
+worker: python3 index.py -t $SLACK_USER_TOKEN -c "obedovnik" -cmd "poll" -i "test nieco nieco"
