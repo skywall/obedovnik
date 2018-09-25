@@ -18,15 +18,15 @@ def main():
    
     try:
         settings = init_settings()
-    	slack = Slacker(settings.token)
-    	channel_id = slack.channels.get_channel_id(settings.channel)
-    	slack.chat.command(
+        slack = Slacker(settings.token)
+        channel_id = slack.channels.get_channel_id(settings.channel)
+        slack.chat.command(
             channel=channel_id,
             command='/' + settings.command,
             text=settings.instruction
         )		
     except (KeyboardInterrupt, SystemExit):
-    	print "-> Aborted through user interaction"
+        print("-> Aborted through user interaction")
 
 if __name__ == "__main__":
 	main()
