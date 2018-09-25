@@ -3,13 +3,13 @@
 		{
 			"name": "Bistro Bastardo",
 			"type": "empty",
-			"emoji": ":flag-mx::hot_pepper:burrito:"
+			"emoji": ":flag-mx::burrito:"
 		},
 		{
 			"name": "Bücheck",
 			"type": "url",
 			"url": "https://www.facebook.com/bucheckbrno/",
-			"emoji": ":hamburger::ok_hand::woman::flag-sk:"
+			"emoji": ":hamburger::flag-sk:"
 		},
 		{
 			"name": "Buddha",
@@ -63,7 +63,7 @@
 			"name": "Mikrofarma",
 			"type": "url",
 			"url": "http://www.mikrofarma.cz/bistro-brno/",
-			"emoji": ":cow::arrow_right::poultry_leg:"
+			"emoji": ":cow::poultry_leg:"
 		},
 		{
 			"name": "Namaskar",
