@@ -2,7 +2,7 @@
 import os
 from slacker import Slacker
 
-class Settings:
+class SlackBotSettings:
     def __init__(self):
         self.token = os.environ['HOME']
         self.channel = "obedovnik"
@@ -30,10 +30,4 @@ class SlackBot:
             command = '/poll',
             text = title + " " + " ".join(options)
         )
-        
-slackBot = SlackBot(Settings())
-slackBot.sendMessage("Obedovnik na dnes:")
-slackBot.sendSnippet("Catanni", "Cestoviny")
-slackBot.sendSnippet("Suzies", "Steak")
-slackBot.sendPoll("Pošušnáníčko?", ["first", "second", "third"])
 
