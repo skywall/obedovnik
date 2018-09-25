@@ -28,6 +28,6 @@ class SlackBot:
         self.slacker.chat.command(
             channel = channel_id,
             command = '/poll',
-            text = title + " " + " ".join(options)
+            text = "\"" + title + "\" \"" + "\" \"".join((str(res) for res in options)) + "\""
         )
 
