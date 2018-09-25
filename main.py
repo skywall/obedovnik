@@ -1,12 +1,13 @@
 from slack import SlackBot
 from parser import parse_restaurants
 
-restaurants = parse_restaurants().sort()
+restaurants = parse_restaurants()
 bot = SlackBot()
 
+
+## show menus
 for r in restaurants:
-    # print(r.post_daily_menu_to_slack(bot))
-    print(r)
+    print(r.post_daily_menu_to_slack(bot))
 
 ## send poll
 max = 10

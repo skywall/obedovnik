@@ -30,9 +30,9 @@ class RestaurantZomato(Restaurant):
 
     def post_daily_menu_to_slack(self, slack):
         dishes = Zomato().get_daily_menu(self.zomatoId)
-        formatted_dishes = self.__formatDailyMenu(dishes)
-        print(formatted_dishes)
-        slack.send_snippet(self.title, formatted_dishes)
+        if dishes:
+            formatted_dishes = self.__formatDailyMenu(dishes)
+            slack.send_snippet(self.title, formatted_dishes)
 
     def __formatDailyMenu(self, dishes):
         return "\n".join(str(dish) for dish in dishes)

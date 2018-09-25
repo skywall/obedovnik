@@ -23,12 +23,12 @@ class Zomato():
         self.__is_valid_restaurant_id(restaurant_id)
 
         headers = {'Accept': 'application/json', 'user-key': config["user_key"]}
-        r = requests.get(config["base_id"] + "/dailymenu?res_id=" + str(restaurant_id), headers=headers).content.decode("utf-8")
+        r = requests.get(config["base_id"] + "/dailymenu?res_id=" + str(restaurant_id),
+                         headers=headers).content.decode("utf-8")
         a = ast.literal_eval(r)
 
         if 'code' in a:
-            if a['code'] == 404:
-                raise ('InvalidRestaurantId')
+            return []
 
         a = a['daily_menus'][0]['daily_menu']
         list = []
@@ -38,7 +38,6 @@ class Zomato():
 
         return list
 
-
     def __is_valid_restaurant_id(self, restaurant_Id):
         """
         Checks if the Restaurant ID is valid or invalid.
@@ -47,4 +46,3 @@ class Zomato():
         restaurant_Id = str(restaurant_Id)
         if restaurant_Id.isnumeric() == False:
             raise ValueError('InvalidRestaurantId')
-
