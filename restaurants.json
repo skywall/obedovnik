@@ -1,0 +1,102 @@
+{
+	"restaurants": [
+		{
+			"name": "Bistro Bastardo",
+			"type": "empty"
+		},
+		{
+			"name": "Bücheck",
+			"type": "url",
+			"url": "https://www.facebook.com/bucheckbrno/"
+		},
+		{
+			"name": "Buddha",
+			"type": "url",
+			"url": "http://www.indian-restaurant-buddha.cz"
+		},
+		{
+			"name": "Cattani",
+			"type": "url",
+			"url": "http://www.cattani.cz"
+		},
+		{
+			"name": "Forky's",
+			"type": "url",
+			"url": "http://www.forkys.eu/en/daily-menu/poledni-menu-brno/"
+		},
+		{
+			"name": "Formanka",
+			"type": "zomato",
+			"zomato_id": "16505875"
+		},
+		{
+			"name": "Fresh Fanatic",
+			"type": "zomato",
+			"zomato_id": "17807429"
+		},
+		{
+			"name": "Jedna báseň",
+			"type": "zomato",
+			"zomato_id": "16506578"
+		},
+		{
+			"name": "La Speranza",
+			"type": "url",
+			"url": "http://lasperanza-bistro.cz/menu-complete/"
+		},
+		{
+			"name": "Lokál u Caipla",
+			"type": "zomato",
+			"zomato_id": "17807425"
+		},
+		{
+			"name": "Mikrofarma",
+			"type": "url",
+			"url": "http://www.mikrofarma.cz/bistro-brno/"
+		},
+		{
+			"name": "Namaskar",
+			"type": "url",
+			"url": "https://www.facebook.com/Namaskarbrno/"
+		},
+		{
+			"name": "Ocean 48",
+			"type": "url",
+			"url": "http://www.ocean48.cz/Obchod/prodejny/ceska"
+		},
+		{
+			"name": "Oh Pho",
+			"type": "url",
+			"url": "https://docs.google.com/spreadsheets/d/1r7xNiQiKjE3_5zqZrCQMIYccc2lBt18rPYr-lf1Pu-M/edit?usp=sharing"
+		},
+		{
+			"name": "Parodie",
+			"type": "empty"
+		},
+		{
+			"name": "Sborovna",
+			"type": "zomato",
+			"zomato_id": "18335377"
+		},
+		{
+			"name": "Stopkova pivnice",
+			"type": "zomato",
+			"zomato_id": "16505456"
+		},
+		{
+			"name": "Suzie's",
+			"type": "zomato",
+			"zomato_id": "16506939"
+		},
+		{
+			"name": "Suzie's Steak pub",
+			"type": "zomato",
+			"zomato_id": "18126190"
+		},
+		{
+			"name": "Vegalité",
+			"type": "zomato",
+			"zomato_id": "16506673"
+		},
+	]
+}
