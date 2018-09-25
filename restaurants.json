@@ -2,101 +2,121 @@
 	"restaurants": [
 		{
 			"name": "Bistro Bastardo",
-			"type": "empty"
+			"type": "empty",
+			"emoji": ":flag-mx::hot_pepper:burrito:"
 		},
 		{
 			"name": "Bücheck",
 			"type": "url",
-			"url": "https://www.facebook.com/bucheckbrno/"
+			"url": "https://www.facebook.com/bucheckbrno/",
+			"emoji": ":hamburger::ok_hand::woman::flag-sk:"
 		},
 		{
 			"name": "Buddha",
 			"type": "url",
-			"url": "http://www.indian-restaurant-buddha.cz"
+			"url": "http://www.indian-restaurant-buddha.cz",
+			"emoji": ":flag-np::fire:"
 		},
 		{
 			"name": "Cattani",
 			"type": "url",
-			"url": "http://www.cattani.cz"
+			"url": "http://www.cattani.cz",
+			"emoji": ":it::spaghetti:"
 		},
 		{
 			"name": "Forky's",
 			"type": "url",
-			"url": "http://www.forkys.eu/en/daily-menu/poledni-menu-brno/"
+			"url": "http://www.forkys.eu/en/daily-menu/poledni-menu-brno/",
+			"emoji": ":green_salad::avocado:"
 		},
 		{
 			"name": "Formanka",
 			"type": "zomato",
-			"zomato_id": "16505875"
+			"zomato_id": "16505875",
+			"emoji": ":beer::flag-cz:"
 		},
 		{
 			"name": "Fresh Fanatic",
 			"type": "zomato",
-			"zomato_id": "17807429"
+			"zomato_id": "17807429",
+			"emoji": ":green_salad::seedling:"
 		},
 		{
 			"name": "Jedna báseň",
 			"type": "zomato",
-			"zomato_id": "16506578"
+			"zomato_id": "16506578",
+			"emoji": ":female-cook::fork_and_knife:"
 		},
 		{
 			"name": "La Speranza",
 			"type": "url",
-			"url": "http://lasperanza-bistro.cz/menu-complete/"
+			"url": "http://lasperanza-bistro.cz/menu-complete/",
+			"emoji": ":it::pizza:"
 		},
 		{
 			"name": "Lokál u Caipla",
 			"type": "zomato",
-			"zomato_id": "17807425"
+			"zomato_id": "17807425",
+			"emoji": ":flag-cz::beers:"
 		},
 		{
 			"name": "Mikrofarma",
 			"type": "url",
-			"url": "http://www.mikrofarma.cz/bistro-brno/"
+			"url": "http://www.mikrofarma.cz/bistro-brno/",
+			"emoji": ":cow::arrow_right::poultry_leg:"
 		},
 		{
 			"name": "Namaskar",
 			"type": "url",
-			"url": "https://www.facebook.com/Namaskarbrno/"
+			"url": "https://www.facebook.com/Namaskarbrno/",
+			"emoji": ":flag-in::curry:"
 		},
 		{
 			"name": "Ocean 48",
 			"type": "url",
-			"url": "http://www.ocean48.cz/Obchod/prodejny/ceska"
+			"url": "http://www.ocean48.cz/Obchod/prodejny/ceska",
+			"emoji": ":blowfish::fried_shrimp:"
 		},
 		{
 			"name": "Oh Pho",
 			"type": "url",
-			"url": "https://docs.google.com/spreadsheets/d/1r7xNiQiKjE3_5zqZrCQMIYccc2lBt18rPYr-lf1Pu-M/edit?usp=sharing"
+			"url": "https://www.facebook.com/ohphobrno/",
+			"emoji": ":flag-vn::rice:"
 		},
 		{
 			"name": "Parodie",
-			"type": "empty"
+			"type": "empty",
+			"emoji": ":hamburger::fries:"
 		},
 		{
 			"name": "Sborovna",
 			"type": "zomato",
-			"zomato_id": "18335377"
+			"zomato_id": "18335377",
+			"emoji": ":flag-cz::it:"
 		},
 		{
 			"name": "Stopkova pivnice",
 			"type": "zomato",
-			"zomato_id": "16505456"
+			"zomato_id": "16505456",
+			"emoji": ":beer::knife_fork_plate:"
 		},
 		{
 			"name": "Suzie's",
 			"type": "zomato",
-			"zomato_id": "16506939"
+			"zomato_id": "16506939",
+			"emoji": ":flag-cz::meat_on_bone:"
 		},
 		{
 			"name": "Suzie's Steak pub",
 			"type": "zomato",
-			"zomato_id": "18126190"
+			"zomato_id": "18126190",
+			"emoji": ":pig_nose::cut_of_meat:"
 		},
 		{
 			"name": "Vegalité",
 			"type": "zomato",
-			"zomato_id": "16506673"
-		},
+			"zomato_id": "16506673",
+			"emoji": ":green_salad::broccoli:"
+		}
 	]
 }
