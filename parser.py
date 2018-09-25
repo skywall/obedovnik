@@ -4,7 +4,7 @@ from restaurants import RestaurantEmpty, RestaurantURL, RestaurantZomato
 
 
 def parse_restaurants():
-    with open("restaurant.json", "r") as myfile:
+    with open("restaurants.json", "r") as myfile:
         data = myfile.read()
 
     restaurants_list = json.loads(data)["restaurants"]
