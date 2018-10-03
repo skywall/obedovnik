@@ -3,7 +3,7 @@ from slacker import Slacker
 
 config = {
         "token" : os.environ['SLACK_USER_TOKEN'],
-        "channel" : "obedovnik"
+        "channel" : "obed"
 }
 
 class SlackBot:
